@@ -910,13 +910,12 @@ var Tutor = function() {
 
     // Evaluate the input typed by the user and change the practice
     // panel state if necessary.
-    function evaluateInput()
     {
         var inputText = my.html.input.value
         var inputLength = inputText.length
-
         // If the tutor is in READY state, and input has been entered,
         // then set it to RUNNING STATE.
+        
         if (my.current.state == my.STATE.READY && inputLength > 0) {
 
             my.current.startTime = new Date().getTime()
