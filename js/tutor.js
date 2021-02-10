@@ -910,6 +910,7 @@ var Tutor = function() {
 
     // Evaluate the input typed by the user and change the practice
     // panel state if necessary.
+        function evaluateInput()
     {
         var inputText = my.html.input.value
         var inputLength = inputText.length
