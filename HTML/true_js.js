@@ -1,7 +1,8 @@
 //"A" to "B" Conversion
 function transformTypedChar(charStr) 
 {
-    return charStr == "a" ? "b" : charStr == "b" ? "a" : charStr; //The first charStr is comparing the a to b value but the second charStr is doing the exact opposite of the b to a to have only variable switch around
+    return charStr == "a" ? "b" : charStr == "b" ? "a" : charStr;
+    //The first charStr is comparing the a to b value but the second charStr is doing the exact opposite of the b to a to have only variable switch around
 }
 
 function getInputSelection(el) {
